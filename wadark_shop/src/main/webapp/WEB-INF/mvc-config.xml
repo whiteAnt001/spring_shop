@@ -32,8 +32,8 @@
 
 	<context:component-scan base-package="controller, dao, model, logic"></context:component-scan>
 
-	<bean id="startEnd" class="model.StartEnd"></bean>
-	<bean id="fileValidator" class="utils.FileValidator"/>
+	<!--<bean id="startEnd" class="model.StartEnd"></bean>
+	<bean id="fileValidator" class="utils.FileValidator"/> -->
 
 	<mvc:annotation-driven />
 
